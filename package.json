@@ -5,7 +5,7 @@
     "author": "yiri.zhou",
     "main": "dist/read-yaml-data.min.js",
     "module": "dist/read-yaml-data.es.js",
-    "types": "typings/read-yaml-data.d.ts",
+    "types": "typings/index.d.ts",
     "scripts": {
         "lint": "eslint --ext .ts --ext .tsx src -c .eslintrc.js",
         "fix": "npm run lint --fix",
