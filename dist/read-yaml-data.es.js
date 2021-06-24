@@ -15986,7 +15986,7 @@ function getEnvData(configDir, options) {
         }
         return yaml.parse(fs$2.readFileSync(path.join(envDataCwd, url || ""), "utf8"));
     }
-    return JSON.stringify(envMergeData);
+    return envMergeData;
 }
 
 export default getEnvData;

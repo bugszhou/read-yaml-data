@@ -38,7 +38,7 @@ function getEnvData(configDir, options) {
         }
         return yaml_1.default.parse(fs_1.default.readFileSync(path_1.default.join(envDataCwd, url || ""), "utf8"));
     }
-    return JSON.stringify(envMergeData);
+    return envMergeData;
 }
 exports.default = getEnvData;
 //# sourceMappingURL=index.js.map

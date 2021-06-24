@@ -16,5 +16,5 @@ interface IOptions {
  * @param options
  * @returns
  */
-export default function getEnvData(configDir: string, options: IOptions): string;
+export default function getEnvData(configDir: string, options: IOptions): any;
 export {};
