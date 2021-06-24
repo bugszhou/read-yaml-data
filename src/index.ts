@@ -69,5 +69,5 @@ export default function getEnvData(configDir: string, options: IOptions) {
       fs.readFileSync(path.join(envDataCwd, url || ""), "utf8"),
     );
   }
-  return JSON.stringify(envMergeData);
+  return envMergeData;
 }
